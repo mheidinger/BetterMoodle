@@ -1,17 +1,18 @@
 {
   "manifest_version": 2,
  
-  "name": "BetterMoodle",
-  "version": "0.1.0",
+	"name": "BetterMoodle for the DHBW",
+	"short_name": "BetterMoodle",
+  "version": "0.1.2",
   "description": "Sets a custom theme for the moodle of the DHBW",
  
 	"icons": {
-		"16": "icon16.png",
-		"32": "icon32.png",
-		"48": "icon48.png",
-		"64": "icon64.png",
-		"128": "icon128.png",
-		"1600": "icon1600.png"
+		"16": "icons/icon16.png",
+		"32": "icons/icon32.png",
+		"48": "icons/icon48.png",
+		"64": "icons/icon64.png",
+		"128": "icons/icon128.png",
+		"1600": "icons/icon1600.png"
 	},
 
   "content_scripts": [{
