@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "BetterMoodle",
+  "version": "0.1.0",
+  "description": "Sets a custom theme for the moodle of the DHBW",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["*://moodle.dhbw.de/*"]
+  }]
+ 
+}
