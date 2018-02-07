@@ -5,6 +5,15 @@
   "version": "0.1.0",
   "description": "Sets a custom theme for the moodle of the DHBW",
  
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"64": "icon64.png",
+		"128": "icon128.png",
+		"1600": "icon1600.png"
+	},
+
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": ["*://moodle.dhbw.de/*"]
