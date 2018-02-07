@@ -15,9 +15,8 @@
 	border-radius: 3px !important;
 }
 
-
 body {
-	background: #F5F5F5;
+	background: #F5F5F5 !important;
 	min-height: 100vh;
 	box-sizing: border-box;
 	overflow-x: hidden;
@@ -36,26 +35,26 @@ body {
 	display: none;
 }
 
-input[type="submit"],
-button:not(#searchform_button) {
+.authsource input[type="submit"],
+#regularsubmit {
 	border: none !important;
 	background: #F44336 !important;
 	color: #fff !important;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15) !important;
-	padding: 10px 15px;
+	padding: 10px 15px !important;
 }
 
-input[type="submit"]:hover,
-input[type="submit"]:active,
-input[type="submit"]:focus,
-button:not(#searchform_button):hover,
-button:not(#searchform_button):active,
-button:not(#searchform_button):focus {
+.authsource input[type="submit"]:hover,
+.authsource input[type="submit"]:active,
+.authsource input[type="submit"]:focus,
+#regularsubmit:hover,
+#regularsubmit:active,
+#regularsubmit:focus {
 	border: none !important;
 	background: #F44336 !important;
 	color: #fff !important;
 	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.25) !important;
-	padding: 10px 15px;	
+	padding: 10px 15px !important;	
 }
 
 #above-header > div > div.headermenu.row > form > button {
@@ -130,18 +129,18 @@ button:not(#searchform_button):focus {
 	z-index: 100;
 	border: none !important;
 }
-#searchform_button:hover {
+.searchform #searchform_button:hover {
 	border: none !important;
-	outline: none;
+	outline: none !important;
 	background: transparent !important;
-	color: #000;
+	color: #000 !important;
 }
-#searchform_button i {
-	position: relative;
-	left: -200%;
-	transform: translateX(29%);
+.searchform #searchform_button i {
+	position: relative !important;
+	left: -200% !important;
+	transform: translateX(29%) !important;
 }
-#searchform_button:hover i {
+.searchform #searchform_button:hover i {
 	color: #000 !important;
 }
 .popover-region-toggle.nav-link {
@@ -188,7 +187,7 @@ li.section {
 	padding: 15px 20px !important;
 }
 .breadcrumb {
-	background: transparent;
+	background: transparent !important;
 }
 #sitetitle {
 	display: none !important;
@@ -208,8 +207,8 @@ font {
 }
 
 #wrap {
-	padding: 15px 20px;	
-	margin: 15px auto;
+	padding: 15px 20px !important;
+	margin: 15px auto !important;
 }
 
 #footer {
